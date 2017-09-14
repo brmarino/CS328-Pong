@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS328-Pong", "CS328-Pong.csproj", "{47A31282-BA09-CF4D-2114-0087A6884290}"
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS328-Pong.CSharp", "CS328-Pong.CSharp.csproj", "{876828CF-61A9-6A05-7271-1E15E894FBED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47A31282-BA09-CF4D-2114-0087A6884290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47A31282-BA09-CF4D-2114-0087A6884290}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47A31282-BA09-CF4D-2114-0087A6884290}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47A31282-BA09-CF4D-2114-0087A6884290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876828CF-61A9-6A05-7271-1E15E894FBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876828CF-61A9-6A05-7271-1E15E894FBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876828CF-61A9-6A05-7271-1E15E894FBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876828CF-61A9-6A05-7271-1E15E894FBED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

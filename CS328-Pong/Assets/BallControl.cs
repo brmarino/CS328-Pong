@@ -20,10 +20,18 @@ public class BallControl : MonoBehaviour {
 
     void GoBall()
     {
-        float rand = Random.Range(0, 2);
+        float rand = Random.Range(0, 4);
         if(rand < 1)
         {
             rb2d.AddForce(new Vector2(20, -15));
+        }
+        else if (rand >= 1 && rand < 2)
+        {
+            rb2d.AddForce(new Vector2(20, 15));
+        }
+        else if (rand >= 2 && rand < 3)
+        {
+            rb2d.AddForce(new Vector2(-20, 15));
         }
         else
         {
@@ -51,7 +59,13 @@ public class BallControl : MonoBehaviour {
             vel.x = rb2d.velocity.x;
             vel.y = (rb2d.velocity.y / 2.0f) + (collision.collider.attachedRigidbody.velocity.y / 3.0f);
             rb2d.velocity = vel;
+
+            Rigidbody2D clone;
+            clone = Instantiate(rb2d, transform.position, transform.rotation) as Rigidbody2D;
+            //clone.velocity = rb2d.velocity;
+            clone.velocity = transform.TransformDirection(Vector3.forward);
         }
+
     }
 
 
